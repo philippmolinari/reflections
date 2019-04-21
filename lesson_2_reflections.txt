@@ -3,3 +3,6 @@ A .git file gets created in the repository
 
 How can you use the staging area to make sure you have one commit per logical change?
 Always only add the file that belong to one logical change to the staging area. When finished you can use the commmand git diff --staged to compare the changes against the last commit from the repository to ensure there only changes that belong to the logical change you want to commit. Then commit your changes by using git commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches could be helpful when we try new features (such as a new language or a redesign of the code), but we want to keep the "old version" as a basis for further development as well until we are sure that we want to merge the new feature into our main path.
