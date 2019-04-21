@@ -1,0 +1,17 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It pointed exactly to the line which was changed between the two files.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because git treats the whole repository as one logical unit of work whereas other vcs like Google Docs consider one file to be the logical unit of work
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log can be used to see different commits that impacted the file. git diff will tell you the differences between the files that have been changed since two commits.
+
+How might using version control make you more confident to make changes that could break something?
+You can easily go back to the last non-corrupted version by doing a git checkout.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to use git for Java projects that I eventually will develop after having completed my Java course.
