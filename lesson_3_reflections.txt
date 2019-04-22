@@ -11,3 +11,6 @@ Branches are just a label for commits that can be within one repository and ther
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is that you can work offline and anaylze / possibly merge the changes of the remote with your changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You could work, e.g. on a shared drive and work with local copies of your files or send your changes to each other via e-mail. Not having to learn all the new git commands would probably be much easier. However, it would be very hard to incorporate all changes that were made by different contributors. Furthermore, it would be quite hard to keep track of the changes.
